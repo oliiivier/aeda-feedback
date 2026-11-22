@@ -15,7 +15,7 @@ Ce dépôt sert à recueillir vos **retours** : problèmes rencontrés, idées e
 ## Vie privée
 
 - La synthèse vocale et l'analyse du texte tournent sur l'appareil.
-- Aeda ne contacte que votre serveur Calibre-Web, Project Gutenberg et Hugging Face (téléchargement des modèles de voix).
+- Aeda ne contacte que votre serveur Calibre-Web, Project Gutenberg et GitHub (téléchargement des modèles de voix, depuis les [releases](../../releases) de ce dépôt).
 - Aucune donnée d'usage n'est collectée, aucune publicité.
 
 ## Contenus générés par IA
@@ -34,6 +34,11 @@ Merci de ne joindre ni livre protégé par le droit d'auteur ni donnée personne
 ## Licences et crédits
 
 Aeda s'appuie sur des modèles, voix, données linguistiques et bibliothèques tiers (Pocket TTS de Kyutai, Qwen3-TTS, Lexique, Readium…). Leur liste complète, avec leurs licences, figure dans l'application : **Réglages › À propos**.
+
+Les modèles que l'application télécharge sont hébergés dans les [releases](../../releases) de ce dépôt, sous leur licence d'origine, avec attribution et mention des modifications : voir [NOTICE.md](NOTICE.md) et [`licenses/`](licenses/).
+
+- **Pocket TTS · Mimi** © Kyutai, export ONNX de stephvax — [CC BY 4.0](licenses/LICENSE-CC-BY-4.0.txt) ; fichiers inchangés.
+- **wav2vec2 XLSR-53 espeak** © Meta AI, conversion ONNX de qnighy — [Apache 2.0](licenses/LICENSE-Apache-2.0.txt) ; quantifié en int8 pour Aeda.
 
 ---
 
